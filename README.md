@@ -1,5 +1,10 @@
 ### Hi there 👋
+### immccn12's Profile
 
+我是immccn123，一个初中生。  
+从小六开始对软件产生兴趣。  
+目前正在学习Python和C++。  
+[未达成]安装ArchLinux
 <!--
 **immccn123/immccn123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
