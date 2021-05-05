@@ -1,5 +1,5 @@
 ### Hi there 👋
-### immccn12's Profile
+### immccn123's Profile
 
 我是immccn123，一个初中生。  
 从小六开始对软件产生兴趣。  
