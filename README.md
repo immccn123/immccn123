@@ -1,10 +1,18 @@
-### Hi there 👋
-### immccn123's Profile
+# immccn123的个人站：欢迎
+你好，这里是immccn123的个人主页。
 
-我是immccn123，一个初中生。  
-从小六开始对软件产生兴趣。  
-目前正在学习Python和C++。  
-[未达成]安装ArchLinux
+欢迎每一位来访者。
+
+我是一名初中的OIer，喜欢在平时做一些小项目。
+
+#### 近期制作的项目
+[qimrand](https://github.com/immccn123/qimrand) [im-transfer](https://github.com/immccn123/im-transfer)
+
+
+
+---
+EOF
+
 <!--
 **immccn123/immccn123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
