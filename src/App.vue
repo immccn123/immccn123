@@ -29,7 +29,7 @@ v-list-item-group a {
       background-attachment: fixed;
     "
   >
-    <NavBar />
+    <NavBar v-show="0" />
     <v-main :style="{ 'padding-left': show ? '256px' : '0px' }">
       <v-container style="opacity: 0.8">
         <router-view />
@@ -47,7 +47,8 @@ v-list-item-group a {
           <a href="https://gitee.com/immccn123">Gitee </a>
           <a href="https://flightaware.com/adsb/stats/user/immccn123">ADSB </a>
           <br>
-          <a>Genshin Impact UID(CN): 205476456 (ASIA): 844010126</a>
+          <a href="https://ys.mihoyo.com">Genshin Impact UID(CN): 205476456 </a>
+          <a href="https://genshin.mihoyo.com"> (ASIA): 844010126</a>
         </v-col>
       </v-footer>
     </v-card>
