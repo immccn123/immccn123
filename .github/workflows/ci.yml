@@ -22,8 +22,8 @@ jobs:
       # 执行npm脚本打包项目
       - name: Install and Build
         run: |
-          npm install
-          npm run build
+          yarn
+          yarn run build
       
       # 执行JamesIves/github-pages-deploy-action将项目发布到Github Pages
       - name: Deploy
