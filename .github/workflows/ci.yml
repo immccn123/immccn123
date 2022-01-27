@@ -35,3 +35,5 @@ jobs:
           BRANCH: gh-pages
           # 要发布的文件夹
           FOLDER: dist
+      - name: CloudFlare Pages Deploy
+        run: curl -X POST https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/443b4673-0bd1-4fb5-bf7c-e472b8351c58
