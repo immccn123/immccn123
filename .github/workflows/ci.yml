@@ -36,4 +36,4 @@ jobs:
           # 要发布的文件夹
           FOLDER: dist
       - name: CloudFlare Pages Deploy
-        run: curl -X POST ${{ CFPAGE_WEBHOOKLINK }}
+        run: curl -X POST ${{ secrets.CFPAGE_WEBHOOKLINK }}
