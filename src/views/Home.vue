@@ -17,7 +17,7 @@
     <br />
     <v-card>
       <v-container>
-        <h4 class="text-h4">最近总是有一些闲着蛋疼的人来攻打我的服务器</h4>
+        <h4 class="text-h4">最近总是有一些闲着蛋疼的人来爆破我的服务器</h4>
         <p>现将ip公示如下</p>
         <v-list>
           <v-item-group>
