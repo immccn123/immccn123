@@ -46,5 +46,10 @@
 <script>
 export default {
   name: "NavBar",
+  data() {
+    return {
+      show: 0
+    }
+  }
 };
 </script>
