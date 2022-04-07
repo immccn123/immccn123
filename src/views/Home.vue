@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card>
-      <v-alert>各位帮个忙回答一下问卷<a href="https://wj.qq.com/s2/9668331/fc5c">https://wj.qq.com/s2/9668331/fc5c</a></v-alert>
+      <v-alert>震惊！学生会主席Rain-Liu居然当众看片！</v-alert>
       <v-alert type="warning" v-for="t in tongbao" :key="t"
         >全站通报: {{ t }}，请知悉。</v-alert
       >
