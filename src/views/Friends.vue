@@ -37,9 +37,9 @@ export default {
     return {
       links: [
         {
-          title: "Xrcluogu",
+          title: "Rickyxrc",
           subtitle: "immccn123同机房的大佬",
-          href: "https://gitee.com/xrcluogu",
+          href: "https://github.com/Rickyxrc",
         },
         {
           title: "成都市新津区成外学校",
