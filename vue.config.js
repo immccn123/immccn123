@@ -1,7 +1,18 @@
 module.exports = {
-  pluginOptions: {
-    vuetify: {
-			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
-		}
+  devServer: {
+    allowedHosts: [
+      'gitpod.io',
+      '.gitpod.io'
+    ],
+  },
+  transpileDependencies: true,
+  css: {
+    loaderOptions: {
+      less: {
+        lessOptions: {
+          javascriptEnabled: true,
+        }
+      }
+    }
   }
 }
