@@ -2,10 +2,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
 import './assets/nprogress.css';
+import 'ant-design-vue/dist/antd.less';
 import NProgress from 'nprogress';
+import Antd from 'ant-design-vue';
 
 NProgress.configure({
   // speed: 1,  // 递增进度条的速度    
@@ -36,5 +37,5 @@ loadFonts();
 createApp(App)
   .use(router)
   .use(store)
-  .use(vuetify)
+  .use(Antd)
   .mount('#app')
