@@ -12,14 +12,14 @@ const routes = [
     component: () => import('../views/About.vue')
   },
   {
-    path: '/blog',
-    name: 'Blog',
-    component: () => import('../views/Blog.vue')
-  },
-  {
     path: '/links',
     name: 'Links',
     component: () => import('../views/Links.vue')
+  },
+  {
+    path: '/:CatchAll(.*)',
+    name: 'NotFound',
+    component: () => import('../views/404.vue')
   },
 ]
 

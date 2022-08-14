@@ -5,10 +5,14 @@
     <h6>私について</h6>
     <p>
       Phigros/韵律源点 Arcaea/DanceRail3/音乐世界 Cytus II/古树旋律/花雨旋律/喵斯快跑/Orzmic/调律诗篇/osu!/Malody/原神/崩坏3/Minecraft 玩家
-      <br>
-      Phigros/Arcaea/DanceRail3/Cytus II/Deemo I~II/Muse Dash/Orzmic/Lanota/osu!/Malody/Genshin Impact/Honkai Impact 3rd/Minecraft player
-      <br>
-      Phigros/Arcaea/DanceRail3/Cytus II/Deemo I~II/Muse Dash/Orzmic/Lanota/osu!/Malody/Genshin Impact/Honkai Impact 3rd/Minecraft プレイヤー
+    </p>
+    <p>
+      Phigros/Arcaea/DanceRail3/Cytus II/Deemo I~II/Muse Dash/Orzmic/Lanota/osu!/Malody/Genshin Impact/Honkai Impact
+      3rd/Minecraft player
+    </p>
+    <p>
+      Phigros/Arcaea/DanceRail3/Cytus II/Deemo I~II/Muse Dash/Orzmic/Lanota/osu!/Malody/Genshin Impact/Honkai Impact
+      3rd/Minecraft プレイヤー
     </p>
     <!-- <h2>关于全站通报</h2>
     <p>

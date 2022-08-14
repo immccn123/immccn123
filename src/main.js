@@ -1,12 +1,13 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
 import { loadFonts } from './plugins/webfontloader'
-import './assets/nprogress.css';
-import 'ant-design-vue/dist/antd.less';
 import NProgress from 'nprogress';
 import Antd from 'ant-design-vue';
+import './assets/nprogress.css';
+import 'ant-design-vue/dist/antd.less';
+import './styles/var.less';
 
 NProgress.configure({
   // speed: 1,  // 递增进度条的速度    
@@ -25,11 +26,7 @@ router.beforeEach((to, from, next) => {
 
 //跳转结束了
 router.afterEach(() => {
-  // 在即将进入新的页面组件前，关闭掉进度条
-  setTimeout(() => {
     NProgress.done();
-  }, 1000);
-  // NProgress.done()
 })
 
 loadFonts();
