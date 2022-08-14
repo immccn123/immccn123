@@ -1,10 +1,3 @@
-<style>
-v-list-item-content a {
-  color: black;
-  text-decoration: none;
-}
-</style>
-
 <template>
   <div style="margin: 30px;">
     <h1>友情链接</h1>

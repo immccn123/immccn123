@@ -1,8 +1,9 @@
 <template>
-  <v-card>
-    <v-container>
-      <h3 class="text-h3">404 Not Found :(</h3>
-      <a href="/">返回首页</a>
-    </v-container>
-  </v-card>
+  <a-result status="404" title="404 Not Found" :sub-title="'Sorry, the page you visited does not exist. 申し訳ありませんが、アクセスしたページは存在しません。'">
+    <template #extra>
+      <a-button type="primary" @click="$router.replace('/')">Back Home</a-button>
+      or
+      <a-button @click="$router.go(-1)">Go to Prev Page</a-button>
+    </template>
+  </a-result>
 </template>
