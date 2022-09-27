@@ -29,7 +29,7 @@ export default {
         {
           title: 'Rickyxrc',
           subtitle: "immccn123同机房的大佬",
-          href: "https://github.com/Rickyxrc",
+          href: "https://rickyxrc.top",
           avatar: 'https://avatars.githubusercontent.com/u/81732554',
         },
         {
