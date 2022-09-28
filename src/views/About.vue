@@ -3,6 +3,7 @@
     <h2>关于我...</h2>
     <h6>About Me</h6>
     <h6>私について</h6>
+    <p>A Student Developer.</p>
     <p>
       Phigros/韵律源点 Arcaea/DanceRail3/音乐世界 Cytus II/古树旋律/花雨旋律/喵斯快跑/Orzmic/调律诗篇/osu!/Malody/原神/崩坏3/Minecraft 玩家
     </p>

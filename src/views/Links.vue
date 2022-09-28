@@ -36,7 +36,7 @@ export default {
           title: "成都市新津区成外学校",
           subtitle: "immccn123的学校",
           href: "http://www.xjmjxccw.com/#/",
-          avatar: 'https://avatars.githubusercontent.com/u/0',
+          avatar: 'None',
         },
       ],
     };

@@ -2,10 +2,8 @@
   <a-typography>
     <a-typography-paragraph style="text-align: center;">
       <img src="https://avatars.githubusercontent.com/u/41335471" alt="avatar">
-
-      <h1>欢迎来到immccn123的小站</h1>
-      <h6>Welcome to immccn123's website</h6>
-      <h6>immccn123 のウェブサイトへようこそ</h6>
+      <h1>This is Imken (immccn123).</h1>
+      <h6>イムケン（immccn123）です。</h6>
       <br />
     </a-typography-paragraph>
     <a-typography-paragraph style="margin-left: 30px;">
@@ -16,7 +14,7 @@
         <img src="../assets/jumpticket-games.png" alt="Jumpticket Games" height="70">
       </a>
       <br>
-      <a href="https://milime.top" style="font-size: 2rem;">Milime</a>
+      <a href="https://milime.top/" style="font-size: 2rem;">Milime</a>
     </a-typography-paragraph>
   </a-typography>
 </template>
@@ -24,11 +22,5 @@
 <script>
 export default {
   name: "Home",
-  components: {},
-  data() {
-    return {
-      tongbao: ["黄澄燚 它（？）是一个彻头彻尾的骗子、美女歌唱家、傻*"],
-    };
-  },
 };
 </script>
