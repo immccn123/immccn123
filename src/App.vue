@@ -27,6 +27,7 @@ footer a {
       <a href="https://github.com/immccn123">GitHub </a>
       <br>
       <p>Genshin Impact UID (ASIA): 844010126<br>Discord: immccn123#7749</p>
+      <a href="https://icp.gov.moe/?keyword=20222616" target="_blank">萌ICP备20222616号</a>
     </a-layout-footer>
   </a-layout>
   <div style="position: fixed; z-index: 20; bottom: 20px; right: 20px;">
