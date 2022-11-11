@@ -16,9 +16,7 @@
       3rd/Minecraft プレイヤー
     </p>
     <a-button
-      @click="jump('https://immccn123.notion.site/Genshin-Impact-fad1ef25f3cc4372a8fa6af52f8bc4ab')">Look my
-      my Genshin Impact
-      activities</a-button>
+      @click="jump('https://immccn123.notion.site/Genshin-Impact-fad1ef25f3cc4372a8fa6af52f8bc4ab')">Check out my Genshin Impact plan</a-button>
   </div>
 </template>
 <script>
