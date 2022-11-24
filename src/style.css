@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Noto+Sans+SC');
+
+* {
+  font-family: 'Fira Code', 'Noto Sans SC' !important;
+  font-size: 18px;
+  background-color: #1f1e33;
+}
+
+
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+  color: #add8e6;
+}
+
+h2 {
+  font-size: 26px;
+  color: white;
+}
+
+a {
+  font-weight: 500;
+  color: #ced1ff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #e6e7ff;
+}
