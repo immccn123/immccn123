@@ -36,6 +36,7 @@ var linkList: [Link] = [
                     </n-space>
                 </n-list-item>
             </n-list>
+            <a href="https://blog.immccn123.xyz/friend-link-exchange" target="_blank">Want to show your link on this page?</a>
             <ul style="list-style: none;"></ul>
             <router-link to="/">Home</router-link><br>
             <a href="https://icp.gov.moe/?keyword=20222616">萌ICP备20222616号</a>
