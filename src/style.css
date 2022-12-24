@@ -7,9 +7,13 @@
 }
 
 
-p {
+p, h3 {
   color: white;
 }
+
+/* ppp {
+  color: #b4b2d3;
+} */
 
 h1 {
   font-size: 35px;
@@ -23,7 +27,7 @@ h2 {
 
 a {
   font-weight: 500;
-  color: #ced1ff;
+  color: #bfc2eb;
   text-decoration: inherit;
 }
 
