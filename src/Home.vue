@@ -9,10 +9,10 @@ import { NSpace } from 'naive-ui'
         <img src="https://avatars.githubusercontent.com/u/41335471?v=4" alt="avatar">
         <div>
           <h1>immccn123 (aka Imken)</h1>
-          <h2>About Me</h2>
           <p>OIer / Unity & JS & TS Developer</p>
           <p>Rhythm Game Player</p>
-          <router-link to="/friends">Friend Link</router-link>
+          <router-link to="/friends">Friend Link</router-link><br>
+          <router-link to="/about">About Me</router-link>
         </div>
       </n-space>
       <p style="text-align: center;">
