@@ -8,7 +8,7 @@ interface Link {
     link: string;
 }
 
-var linkList: [Link] = [
+var linkList: Link[] = [
     {
         avatar: 'https://avatars.githubusercontent.com/u/81732554',
         name: 'Rickyxrc',
