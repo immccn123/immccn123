@@ -13,6 +13,11 @@ var linkList: [Link] = [
         avatar: 'https://avatars.githubusercontent.com/u/81732554',
         name: 'Rickyxrc',
         link: 'https://rickyxrc.top/'
+    },
+    {
+        avatar: 'https://avatars.githubusercontent.com/u/84607814',
+        name: 'dsy4567 的小站',
+        link: 'https://dsy4567.cf/'
     }
 ]
 </script>
