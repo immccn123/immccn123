@@ -1,6 +1,8 @@
 An OIer, a third-year middle school student, interested in game development with Unity.
 
-Preparing for high school entrance examination.
+~~Preparing for high school entrance examination.~~
+
+Winning in the future.
 
 Using Manjaro for development, Windows 11 for gaming, and LineageOS on my phone.
 
