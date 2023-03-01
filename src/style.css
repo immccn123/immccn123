@@ -3,12 +3,12 @@
 * {
   font-family: 'Fira Code', 'Noto Sans SC' !important;
   font-size: 18px;
-  background-color: #1f1e33;
+  background-color: #fcfdf7;
 }
 
 
 p, h3 {
-  color: white;
+  color: rgb(22, 22, 22);
 }
 
 /* ppp {
@@ -17,20 +17,20 @@ p, h3 {
 
 h1 {
   font-size: 35px;
-  color: #add8e6;
+  color: #6c868f;
 }
 
 h2 {
   font-size: 26px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 a {
   font-weight: 500;
-  color: #bfc2eb;
+  color: #6c6e8a;
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #e6e7ff;
+  color: #4e4f58;
 }
