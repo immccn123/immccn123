@@ -3,7 +3,7 @@
 * {
   font-family: 'Fira Code', 'Noto Sans SC' !important;
   font-size: 18px;
-  background-color: #fcfdf7;
+  background-color: #fbeeec;
 }
 
 
@@ -17,7 +17,7 @@ p, h3 {
 
 h1 {
   font-size: 35px;
-  color: #6c868f;
+  color: #1c7c81;
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
 
 a {
   font-weight: 500;
-  color: #6c6e8a;
+  color: #5b60b1;
   text-decoration: inherit;
 }
 
