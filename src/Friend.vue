@@ -20,7 +20,7 @@ var linkList: Link[] = [
     avatar: 'https://avatars.githubusercontent.com/u/84607814',
     name: 'dsy4567 的小站',
     link: 'https://dsy4567.cf/',
-    // description: 'Twitter @dsy4567',
+    description: '站长很懒，不想写网站介绍',
   }
 ]
 </script>
