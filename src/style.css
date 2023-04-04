@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Code|Noto+Sans+SC');
 
-* {
+body {
   font-family: 'Fira Code', 'Noto Sans SC' !important;
   font-size: 18px;
   background-color: #fbeeec;
 }
 
 
-p, h3 {
+p,
+h3 {
   color: rgb(22, 22, 22);
 }
 
@@ -17,7 +18,7 @@ p, h3 {
 
 h1 {
   font-size: 35px;
-  color: #1c7c81;
+  color: #4a4c57;
 }
 
 h2 {
