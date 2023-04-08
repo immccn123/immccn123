@@ -11,13 +11,13 @@ interface Link {
 
 var linkList: Link[] = [
   {
-    avatar: 'https://avatars.githubusercontent.com/u/81732554',
+    avatar: 'https://avatars.githubusercontent.com/u/81732554?size=64',
     name: 'Rickyxrc',
     link: 'https://rickyxrc.top/',
     description: 'Frontend Developer / OIer / Backend Developer',
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/84607814',
+    avatar: 'https://avatars.githubusercontent.com/u/84607814?size=64',
     name: 'dsy4567 的小站',
     link: 'https://dsy4567.cf/',
     description: '站长很懒，不想写网站介绍',
