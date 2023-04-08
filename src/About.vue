@@ -21,7 +21,7 @@ import { NSpace, NBackTop } from 'naive-ui'
             <p>A Turbulent Campaigner (ENFP-T) based on <a
                 href="https://www.16personalities.com/profiles/c92e29682c0f2">16Personalities results</a>.</p>
             <p>16Personalities 的<a href="https://www.16personalities.com/profiles/c92e29682c0f2">测试结果</a>为Turbulent
-              Campaigner (ENFP-T)</p>
+              Campaigner (ENFP-A)</p>
             <p>MAYBE a girl?</p>
             <p>性别可能是女（</p>
           </div>

@@ -12,7 +12,7 @@ import { NSpace, NTooltip, NSkeleton } from 'naive-ui'
           <p>OIer / Software Developer</p>
           <p>Localizer (en -> zh-Hans/zh-CN)</p>
           <p>Rhythm Game Player</p>
-          <p>ENFP-T</p>
+          <p>ENFP-A</p>
           <router-link to="/friends">Friend Link</router-link><br>
           <router-link to="/about">About Me</router-link><br>
           <a target="_blank" href="https://blog.immccn123.xyz/">Blog</a>
