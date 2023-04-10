@@ -12,3 +12,5 @@ Learning Japanese.
 [Sponsor Imken! (Alipay / Wechat Pay)](https://sponsor.imken.moe/)
 
 zh-CN/zh-HK/zh-TW/en-US is ok.
+
+![GitHub Readme Status](https://github-readme-stats.vercel.app/api?show_icons=true&username=immccn123&theme=light)
