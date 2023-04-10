@@ -18,7 +18,7 @@ import { NSpace, NBackTop } from 'naive-ui'
           </div>
           <div id="personality">
             <h2>Personality / 性格</h2>
-            <p>A Turbulent Campaigner (ENFP-T) based on <a
+            <p>A Turbulent Campaigner (ENFP-A) based on <a
                 href="https://www.16personalities.com/profiles/c92e29682c0f2">16Personalities results</a>.</p>
             <p>16Personalities 的<a href="https://www.16personalities.com/profiles/c92e29682c0f2">测试结果</a>为Turbulent
               Campaigner (ENFP-A)</p>
@@ -32,14 +32,14 @@ import { NSpace, NBackTop } from 'naive-ui'
               <p>Very suck. / 菜。</p>
               <p style="font-size: smaller; color: #8d8ba3;">
                 Malody 4k (1dan) (切力大概 2dan)<br>
-                Phigros (Ranking Score: 14.87)<br>
-                Arcaea (PTT: 10.07)<br>
+                Phigros (Ranking Score: 14.88)<br>
+                Arcaea (PTT: 10.08)<br>
                 osu!mania 4k (<a href="https://osu.ppy.sh/users/28687186" style="font-size: smaller;">Profile</a>)<br>
                 Rotaeno (Ranking: 11.097)<br>
                 Muse Dash / ミューズダッシュ<br>
                 Project SEKAI COLORFUL STAGE! feat. Hatsune Miku / プロジェクトセカイ カラフルステージ！ feat. 初音ミク<br>
                 Lanota<br>
-                Orzmic (Rating 12.23)<br>
+                Orzmic (Rating 12.24)<br>
               </p>
             </div>
             <div id="acg">
