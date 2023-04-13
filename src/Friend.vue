@@ -42,7 +42,7 @@ var linkList: Link[] = [
                   </n-avatar>
                 </template>
                 <template #header>
-                  <a :href="i.link">{{ i.name }}</a>
+                  <a :href="i.link" target="_blank">{{ i.name }}</a>
                 </template>
               </n-thing>
             </n-card>
