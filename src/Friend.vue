@@ -1,6 +1,11 @@
 <script lang="ts" setup>
-import { NList, NListItem, NThing, NConfigProvider, NSpace, NAvatar, NCard } from 'naive-ui';
+import {
+  NList, NListItem, NThing,
+  NConfigProvider, NSpace, NAvatar, NCard,
+  NGrid, NGridItem
+} from 'naive-ui';
 import { lightTheme } from 'naive-ui';
+import { ref } from 'vue';
 
 interface Link {
   avatar: string;
@@ -14,7 +19,7 @@ var linkList: Link[] = [
     avatar: 'https://avatars.githubusercontent.com/u/81732554',
     name: 'Rickyxrc',
     link: 'https://rickyxrc.top/',
-    description: 'Frontend Developer / OIer / Backend Developer',
+    description: 'Frontend/Backend Developer\nOIer',
   },
   {
     avatar: 'https://avatars.githubusercontent.com/u/84607814',
@@ -27,33 +32,77 @@ var linkList: Link[] = [
     name: 'Ariasakaの小窝',
     link: 'https://yisous.xyz/',
     description: '人有悲欢离合 月有阴晴圆缺',
-  },
+  }
 ]
+
+const col = ref(2);
+
+const R = () => {
+  if (document.documentElement.clientWidth < 900) col.value = 1;
+  else col.value = 2;
+}
+
+var linkListLeft: Link[] = [], linkListRight: Link[] = [];
+
+for (var i = 0; i < linkList.length; i += 1) {
+  if (i % 2 == 0) {
+    linkListLeft.push(linkList[i]);
+  } else {
+    linkListRight.push(linkList[i]);
+  }
+}
+
+window.addEventListener('resize', R);
+R();
 </script>
 
 <template>
   <n-config-provider :theme="lightTheme">
     <div style="text-align: center;">
-      <h1>Friend Link</h1>
+      <h1>Links</h1>
       <n-space justify="center">
-        <n-list>
-          <n-list-item v-for="i in linkList">
-            <n-card embedded hoverable>
-              <n-thing>
-                <template v-if="i.description" #description>
-                  <pre style="text-align: left; margin-top: 0px;">{{ i.description }}</pre>
-                </template>
-                <template #avatar>
-                  <n-avatar :size="64" :src="i.avatar">
-                  </n-avatar>
-                </template>
-                <template #header>
-                  <a :href="i.link" target="_blank">{{ i.name }}</a>
-                </template>
-              </n-thing>
-            </n-card>
-          </n-list-item>
-        </n-list>
+        <n-grid x-gap="12" :cols="col">
+          <n-grid-item>
+            <n-list>
+              <n-list-item v-for="i in linkListLeft">
+                <n-card embedded hoverable>
+                  <n-thing>
+                    <template v-if="i.description" #description>
+                      <pre style="text-align: left; margin-top: 0px;">{{ i.description }}</pre>
+                    </template>
+                    <template #avatar>
+                      <n-avatar :size="64" :src="i.avatar">
+                      </n-avatar>
+                    </template>
+                    <template #header>
+                      <a :href="i.link" target="_blank">{{ i.name }}</a>
+                    </template>
+                  </n-thing>
+                </n-card>
+              </n-list-item>
+            </n-list>
+          </n-grid-item>
+          <n-grid-item>
+            <n-list>
+              <n-list-item v-for="i in linkListRight">
+                <n-card embedded hoverable>
+                  <n-thing>
+                    <template v-if="i.description" #description>
+                      <pre style="text-align: left; margin-top: 0px;">{{ i.description }}</pre>
+                    </template>
+                    <template #avatar>
+                      <n-avatar :size="64" :src="i.avatar">
+                      </n-avatar>
+                    </template>
+                    <template #header>
+                      <a :href="i.link" target="_blank">{{ i.name }}</a>
+                    </template>
+                  </n-thing>
+                </n-card>
+              </n-list-item>
+            </n-list>
+          </n-grid-item>
+        </n-grid>
       </n-space>
       <a href="https://blog.immccn123.xyz/friend-link-exchange" target="_blank">Make a Friend? /
         友链互换</a>
@@ -70,10 +119,12 @@ var linkList: Link[] = [
   border-radius: 10px;
 }
 
-.n-list-item {
+.n-list-item,
+.n-card__content {
   font-family: 'Fira Code', 'Noto Sans SC' !important;
   font-size: 18px;
   background-color: #fbeeec;
+  width: 400px;
 }
 
 .n-avatar {

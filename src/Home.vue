@@ -15,11 +15,11 @@ mail = CryptoJS.enc.Base64.parse(mail).toString(CryptoJS.enc.Utf8);
         <div>
           <h1>immccn123 (aka Imken)</h1>
           <p>OIer / Software Developer</p>
-          <p>Localizer (en -> zh-Hans/zh-CN)</p>
+          <p>Localizer<br>(en -> zh-Hans/zh-CN)</p>
           <p>Rhythm Game Player</p>
           <p>ENFP-A</p>
-          <router-link to="/friends">Friend Link</router-link><br>
-          <router-link to="/about">About Me</router-link><br>
+          <router-link to="/friends">Links</router-link><br>
+          <router-link to="/about">About</router-link><br>
           <a target="_blank" href="https://blog.immccn123.xyz/">Blog</a>
         </div>
       </n-space>
