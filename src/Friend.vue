@@ -27,6 +27,12 @@ var linkList: Link[] = [
     link: 'https://dsy4567.cf/',
     description: '站长很懒，不想写网站介绍',
   },
+  {
+    avatar: 'https://s2.loli.net/2023/04/13/uQqvyX2gLeHDaIl.jpg',
+    name: 'Ariasakaの小窝',
+    link: 'https://yisous.xyz/',
+    description: '人有悲欢离合 月有阴晴圆缺',
+  },
 ]
 
 const col = ref(2);
