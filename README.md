@@ -16,3 +16,5 @@ Learning Japanese.
 zh-CN/zh-TW/zh-MS/en-US
 
 ![GitHub Readme Status](https://github-readme-stats.vercel.app/api?show_icons=true&username=immccn123&theme=light)
+
+Key Fingerprint: `9747 8D98 B9A3 7D2D 11D8 E3EA 94A1 3270 48B7 6B2D`
