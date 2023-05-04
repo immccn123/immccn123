@@ -8,6 +8,7 @@ ENFP-A.
 在学日语。\
 Learning Japanese.
 
+
 [Website (zh-CN/en-US)](https://imken.moe/)\
 [Blog (zh-CN)](https://blog.immccn123.xyz/)
 
@@ -15,6 +16,12 @@ Learning Japanese.
 
 zh-CN/zh-TW/zh-MS/en-US
 
-![GitHub Readme Status](https://github-readme-stats.vercel.app/api?show_icons=true&username=immccn123&theme=light)
+请联系 `gpg[at]imken.moe` 以交换 GPG key。电子邮件会附上公钥：\
+For GPG key exchange, please contact `gpg[at]imken.moe`. The email will have the public key attached:
+```
+Imken Luo: GPG <gpg@imken.moe>
+97BEFDBADFCEB7DA
+34C2 A4EB 215C 21A5 92FD 9CA5 97BE FDBA DFCE B7DA
+```
 
-Key Fingerprint: `9747 8D98 B9A3 7D2D 11D8 E3EA 94A1 3270 48B7 6B2D`
+![GitHub Readme Status](https://github-readme-stats.vercel.app/api?show_icons=true&username=immccn123&theme=light)
