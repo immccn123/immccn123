@@ -2,7 +2,7 @@
 import { NSpace, NTooltip } from 'naive-ui'
 import CryptoJS from 'crypto-js';
 
-var mail = 'aW1tY2NuMTIzQG91dGxvb2suY29t';
+var mail = 'bWVAaW1rZW4ubW9l';
 mail = CryptoJS.enc.Base64.parse(mail).toString(CryptoJS.enc.Utf8);
 
 </script>
