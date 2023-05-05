@@ -30,7 +30,7 @@ mail = CryptoJS.enc.Base64.parse(mail).toString(CryptoJS.enc.Utf8);
             </a></template><span id="email">{{ mail }}</span></n-tooltip>
         <a target="_blank"
           href="https://status.imken.moe/">Status</a><br>
-        <a href="https://t.me/Imken_Announcement">Telegram Channel</a><br>
+        <a href="https://t.me/+8nMVYkJU9ZY5OTdl">Telegram Channel</a><br>
         <a target="_blank" href="https://discord.gg/JGh6FBtM6Q">Discord (immccn123#7749)</a><br>
         <a target="_blank" href="https://immccn123.notion.site/Genshin-Impact-fad1ef25f3cc4372a8fa6af52f8bc4ab">Genshin
           Impact UID:
