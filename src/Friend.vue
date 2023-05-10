@@ -28,6 +28,12 @@ var linkList: Link[] = [
     description: '站长很懒，不想写网站介绍',
   },
   {
+    avatar: 'https://s2.loli.net/2023/05/10/fjaY7iIn65VvSLX.webp',
+    name: 'SBGA (Unoffical)',
+    link: 'https://sbga.cc/',
+    description: '试驾的马没了 o_o',
+  },
+  {
     avatar: 'https://s2.loli.net/2023/04/13/uQqvyX2gLeHDaIl.jpg',
     name: 'Ariasakaの小窝',
     link: 'https://yisous.xyz/',
