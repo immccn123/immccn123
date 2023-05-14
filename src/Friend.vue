@@ -43,7 +43,7 @@ var linkList: Link[] = [
     avatar: 'https://api.yimian.xyz/img/?path=imgbed/img_bd4dcd7_210x222_8_null_normal.jpeg',
     name: "Fat Old Eight's Blog",
     link: 'https://fat-old-eight.github.io/',
-    description: ' Tip：如何提升自己的技术，根据所有大佬的建（fu）议（du）…多练',
+    description: 'Tip：如何提升自己的技术，\n根据所有大佬的建（fu）议（du）…多练',
   },
 ]
 
