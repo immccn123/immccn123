@@ -7,7 +7,7 @@ import { NSpace, NBackTop } from 'naive-ui'
     <n-back-top :right="100" />
     <n-space vertical>
       <n-space justify="center">
-        <div style="text-align: left;">
+        <div style="text-align: left; padding: 20px;">
           <h1>About Me / 关于我</h1>
           <div id="name">
             <h2>Name / 名字</h2>
@@ -32,9 +32,9 @@ import { NSpace, NBackTop } from 'naive-ui'
               <p>Very suck. / 菜。</p>
               <p style="font-size: smaller; color: #8d8ba3;">
                 Malody 4k (1dan) (切力大概 2dan)<br>
-                Phigros (Ranking Score: 14.88)<br>
-                Arcaea (PTT: 10.08)<br>
-                osu!mania 4k (<a href="https://osu.ppy.sh/users/28687186" style="font-size: smaller;">Profile</a>)<br>
+                Phigros (Ranking Score: 14.93)<br>
+                Arcaea (PTT: 10.43)<br>
+                osu!lazer mania 4k (<a href="https://osu.ppy.sh/users/28687186" style="font-size: smaller;">Profile</a>)<br>
                 Rotaeno (Ranking: 11.097)<br>
                 Muse Dash / ミューズダッシュ<br>
                 Project SEKAI COLORFUL STAGE! feat. Hatsune Miku / プロジェクトセカイ カラフルステージ！ feat. 初音ミク<br>
@@ -52,7 +52,7 @@ import { NSpace, NBackTop } from 'naive-ui'
             </div>
             <div id="oi">
               <h3>OI / 信息学竞赛</h3>
-              <p>As of Apr. 4, 2023 / 截至2023年4月4日</p>
+              <p>As of May 15, 2023 / 截至2023年5月15日</p>
             </div>
           </div>
           <div id="political-standpoint">
@@ -63,8 +63,8 @@ import { NSpace, NBackTop } from 'naive-ui'
           <div style="height: 50px;"></div>
           <div style="text-align: center;">
             <p>
-              Last updated on Apr. 4, 2023. Some information may have changed.<br>
-              本页面最后更新于2023年4月4日，其中的某些信息可能已经发生改变。
+              Last updated on May 15, 2023. Some information may have changed.<br>
+              本页面最后更新于2023年5月15日，其中的某些信息可能已经发生改变。
             </p>
             <router-link to="/">Home</router-link>
           </div>
