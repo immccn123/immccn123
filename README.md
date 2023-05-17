@@ -12,6 +12,7 @@ ENFP-A.
 在学日语。\
 Learning Japanese.
 
+初三，但不中考。
 
 [Website (zh-CN/en-US)](https://imken.moe/)\
 [Blog (zh-CN)](https://blog.immccn123.xyz/)
