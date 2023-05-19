@@ -45,6 +45,12 @@ var linkList: Link[] = [
     link: 'https://fat-old-eight.github.io/',
     description: 'Tip：如何提升自己的技术，\n根据所有大佬的建（fu）议（du）…多练',
   },
+  {
+    avatar: 'https://s2.loli.net/2023/05/19/T2bkCRFYuhaDgji.png',
+    name: 'robinyqc',
+    link: 'https://robinyqc.cn/',
+    description: '中学 OIer。什么语言都不会。玩 MC。',
+  },
 ]
 
 const col = ref(2);
