@@ -7,7 +7,7 @@
 信竞选手，对游戏开发感兴趣（Unity 2D），然后正在搞一个游戏。\
 An OIer, interested in game development with Unity (2D), developing a game.
 
-ENFP-A.
+INFP-T.
 
 在学日语。\
 Learning Japanese.

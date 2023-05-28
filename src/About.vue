@@ -18,10 +18,10 @@ import { NSpace, NBackTop } from 'naive-ui'
           </div>
           <div id="personality">
             <h2>Personality / 性格</h2>
-            <p>A Turbulent Campaigner (ENFP-A) based on <a
+            <p>A Turbulent Campaigner (INFP-T) based on <a
                 href="https://www.16personalities.com/profiles/c92e29682c0f2">16Personalities results</a>.</p>
             <p>16Personalities 的<a href="https://www.16personalities.com/profiles/c92e29682c0f2">测试结果</a>为Turbulent
-              Campaigner (ENFP-A)</p>
+              Campaigner (INFP-T)</p>
             <p>MAYBE a girl?</p>
             <p>性别可能是女（</p>
           </div>
