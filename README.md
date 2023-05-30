@@ -21,12 +21,9 @@ Learning Japanese.
 
 zh-CN/zh-TW/zh-MS/en-US
 
-请联系 `gpg[at]imken.moe` 以交换 GPG key。电子邮件会附上公钥：\
-For GPG key exchange, please contact `gpg[at]imken.moe`. The email will have the public key attached:
 ```
-Imken Luo: GPG <gpg@imken.moe>
-97BEFDBADFCEB7DA
-34C2 A4EB 215C 21A5 92FD 9CA5 97BE FDBA DFCE B7DA
+Imken Luo <me@imken.moe>
+18B0 D3C8 8562 8EEE EB16 FA92 0DF5 9E05 584F C98E
 ```
 
 ![GitHub Readme Status](https://github-readme-stats.vercel.app/api?show_icons=true&username=immccn123&theme=light)
