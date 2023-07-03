@@ -12,7 +12,7 @@ INFP-T.
 在学日语。\
 Learning Japanese.
 
-初三，但不中考。
+准高一，目标大专，不思进取，目前全面开摆中。
 
 [Website (zh-CN/en-US)](https://imken.moe/)\
 [Blog (zh-CN)](https://blog.immccn123.xyz/)
