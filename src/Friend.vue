@@ -51,6 +51,12 @@ var linkList: Link[] = [
     link: 'https://robinyqc.cn/',
     description: '中学 OIer。什么语言都不会。玩 MC。',
   },
+  {
+    avatar: 'https://github.com/X-six-floor-slip-liu-X.png',
+    name: '六楼溜刘的小窝',
+    link: 'https://x-six-floor-slip-liu-x.github.io/',
+    description: '我是超级题解王',
+  },
 ]
 
 const col = ref(2);
