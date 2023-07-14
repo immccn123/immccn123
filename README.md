@@ -2,8 +2,8 @@
 
 INFP-T.
 
-信竞选手。\
-An OIer.
+预备退役信竞选手。\
+An OIer (waiting for AFO).
 
 准备学习日语。\
 Plan to learn Japanese.
