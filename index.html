@@ -1,18 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="https://avatars.githubusercontent.com/u/41335471?v=4" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Imken Luo's Profile: OIer / Unity & JS & TS Developer / Rhythm Game Player / Moving towards MtF (not ture)">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue|Noto+Sans+SC">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="/imken.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Imken Luo's Profile: OIer / Software Developer / Rhythm Game Player">
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/41335471?v=4" />
   <title>Imken Luo</title>
+  <style>
+    #header-section {
+      display: flex;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 650px) {
+      #header-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      #main-section {
+        text-align: center;
+      }
+    }
+
+    #avatar {
+      max-width: 400px;
+      max-height: 400px;
+    }
+  </style>
 </head>
 
-<body>
-  <noscript>This page requires JavaScript to load.</noscript>
-  <div id="app"></div>
-  <script type="module" src="/src/main.ts"></script>
+<body style="font-family: 'Comic Neue', 'Noto Sans SC', sans-serif;">
+  <div id="header-section">
+    <img src="https://github.com/immccn123.png" alt="Imken's avatar" id="avatar">
+    <div id="main-section">
+      <h1 style="margin-left: 20px;">Imken Luo</h1>
+      <h4 style="margin-left: 20px; color: gray;">(as known as immccn123)</h4>
+      <p style="margin-left: 20px;">OIer / Software Developer / INFP-T</p>
+      <a href="/about" class="large-link">关于 / About</a><br>
+      <!-- <a href="#" class="large-link">Projects</a><br> -->
+      <a href="/links" class="large-link">友情链接 / Links</a><br>
+      <a href="https://blog.immccn123.xyz" class="large-link">博客 / Blog</a><br>
+      <a href="https://status.imken.moe/" class="large-link">服务状态 / Status</a><br>
+      <div style="margin: 20px;">
+        <a href="https://github.com/immccn123" class="icon-link">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://t.me/immccn123" class="icon-link">
+          <i class="fa fa-telegram"></i>
+        </a>
+        <a href="https://twitter.com/immccn123" class="icon-link">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="mailto:me@imken.moe" class="icon-link">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer style="text-align: center; margin-top: 30px;">
+    <a href="https://icp.gov.moe/?keyword=20222616">萌ICP备20222616号</a>
+  </footer>
 </body>
 
 </html>
