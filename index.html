@@ -11,6 +11,10 @@
   <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/41335471?v=4" />
   <title>Imken Luo</title>
   <style>
+    body {
+      margin: 0;
+    }
+
     #header-section {
       display: flex;
       justify-content: center;
@@ -32,10 +36,34 @@
       max-width: 400px;
       max-height: 400px;
     }
+
+    #announcement {
+      background-color: #ffd900;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #announcement #close-icon {
+      color: black;
+      font-size: large;
+      text-align: right;
+    }
   </style>
 </head>
 
 <body style="font-family: 'Comic Neue', 'Noto Sans SC', sans-serif;">
+  <div id="announcement" class="hidden">
+    <div>
+      <span>
+        <i class="fa fa-info-circle"></i>
+        因为某些原因，站长屏蔽了本站在中国大陆的访问，访问会跳假的反诈。
+      </span>
+    </div>
+    <div>
+      <a href="javascript:closeAnnouncement()" id="close-icon"><i class="fa fa-remove"></i></a>
+    </div>
+  </div>
   <div id="header-section">
     <img src="https://avatars.githubusercontent.com/u/41335471?v=4" alt="Imken's avatar" id="avatar">
     <div id="main-section">
@@ -66,6 +94,23 @@
   <footer style="text-align: center; margin-top: 30px;">
     <a href="https://icp.gov.moe/?keyword=20222616">萌ICP备20222616号</a>
   </footer>
+
+  <script>
+    function closeAnnouncement() {
+      localStorage.setItem('closeAnnounce', (new Date()));
+      document.getElementById('announcement').remove();
+    }
+
+    window.onload = function () {
+      const announce = localStorage.getItem('closeAnnounce');
+      if (announce) {
+        if (new Date() - new Date(announce) < 1000 * 86400 * 7) {
+          return;
+        }
+      }
+      document.getElementById('announcement').classList.remove('hidden');
+    }
+  </script>
 </body>
 
 </html>

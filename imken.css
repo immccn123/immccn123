@@ -93,3 +93,9 @@ a:hover {
   transition: .2s;
   box-shadow: 0px 0px 0px;
 }
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+  height: 0;
+}
