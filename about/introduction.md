@@ -2,9 +2,9 @@
 
 ## 概况 / Overview
 
-准高一学生，07 年出生。
+高一学生，07 年出生。
 
-A prospective senior high school student, born in 2007.
+A senior high school (grade 1) student, born in 2007.
 
 zh/zh-MS/en-US
 

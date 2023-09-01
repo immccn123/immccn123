@@ -8,7 +8,7 @@ An OIer (waiting for AFO).
 准备学习日语。\
 Plan to learn Japanese.
 
-准高一，没有目标，不思进取，目前全面开摆中。
+现役高一学生，没有目标，不思进取，目前全面开摆中。
 
 zh-CN/zh-TW/zh-MS/en-US
 
