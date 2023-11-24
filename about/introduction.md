@@ -43,9 +43,7 @@ I've played mobile rhythm games but I'm very suck.
 
 ### 信息学竞赛 / OI
 
-考完 NOIP 退役。
-
-Will be AFOed after Dec. 2023.
+`void 0`
 
 ## 政治立场 / Political Standpoint
 

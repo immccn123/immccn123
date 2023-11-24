@@ -2,8 +2,8 @@
 
 zh-CN (Native) / zh-TW / en-US
 
-预备退役信息学奥林匹克竞赛选手。\
-An OIer (waiting for AFO).
+大概已经退役信息学奥林匹克竞赛选手。\
+Maybe an (AFOed) OIer.
 
 现役高一学生，没有目标，不思进取，目前全面开摆中。
 
