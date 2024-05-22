@@ -2,36 +2,19 @@
 
 ## 概况 / Overview
 
-高一学生，07 年出生。
+高一生，07 年出生。
 
 A senior high school (grade 1) student, born in 2007.
 
-zh/zh-MS/en-US
+zh-CN (Native) / en-US
 
-## 名字 / Name
+ja-JP (Learning)
 
-Imken 比较常用的 ID 有 ImkenMoe / immccn123 / Imken Luo 等。
+## 「Imken」的读音 / Pronunciation of 「Imken」
 
-Imken’s commonly used IDs include ImkenMoe / immccn123 / Imken Luo, etc.
+本来希望是读作 `[aimeken]`，不符合自然拼读法的一个读音，但是这个读音没什么人读对过，所以你想怎么念就怎么念（
 
-### 「Imken」的读音 / Pronunciation of 「Imken」
-
-不符合自然拼读法的一个读音。
-
-A pronunciation that does not conform to the natural phonetic method.
-
-- 片假名 / Katakana：アイメケン
-- 音标 / Phonetic symbols: [aimeken]
-
-## 性别 / Gender
-
-Prefers to be called she/her.
-
-## 性格 / Personality
-
-「INFP-T」based on 16Personalities results.
-
-16Personalities 的测试结果为「INFP-T」。
+Originally, I hoped it would be pronounced as `[aimeken]`, which doesn't conform to the rules of natural phonetics, but hardly anyone has pronounced it correctly, so just pronounce it however you like.
 
 ## 兴趣 / Interests
 
@@ -39,14 +22,8 @@ Prefers to be called she/her.
 
 移动端都碰过，但是很菜。
 
-I've played mobile rhythm games but I'm very suck.
+街机端因为打的太菜了所以经常被人骂（
 
-### 信息学竞赛 / OI
+I've tried playing them on mobile, but I'm not very good.
 
-`void 0`
-
-## 政治立场 / Political Standpoint
-
-不关心，不知道。
-
-???
+On arcade machines, I often get scolded because I'm terrible at it.
