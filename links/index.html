@@ -28,7 +28,10 @@
   <body style="font-family: 'Comic Neue', 'Noto Sans SC', sans-serif">
     <main style="padding: 30px">
       <h1>友情链接 / Links</h1>
-      <div style="display: flex; flex-wrap: wrap; justify-items: center" id="links-main">
+      <div
+        style="display: flex; flex-wrap: wrap; justify-items: center"
+        id="links-main"
+      >
         Loading...
       </div>
     </main>
@@ -45,17 +48,17 @@
     </footer>
 
     <script type="module">
-      import("https://data.imken.moe/links.js")
-      .then((res) => {
-          document.getElementById("links-main").innerHTML = res.default
-            .map(
-              (x) => `<a href="${x.url}" class="friend-large-link" target="_blank">
-                <img width="100" height="100" src="${x.avatar}" alt="avatar">
+      import("https://data.imken.moe/links.js").then((res) => {
+        document.getElementById("links-main").innerHTML = res.default
+          .map(x => `<a href="${x.url}" class="friend-large-link" target="_blank">
+                <img class="fl-img" src="${x.avatar}" alt="avatar">
                 <br>${x.name}<p>${x.description}</p>
               </a>`
-            )
-            .join("");
-        });
+          )
+          .join("");
+      });
     </script>
   </body>
+
+  <script type="module" src="/common.js"></script>
 </html>

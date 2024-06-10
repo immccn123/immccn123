@@ -1,7 +1,7 @@
 .large-link {
   margin: 10px;
   /* margin-right: 0px; */
-  color: rgb(255, 165, 180);
+  color: var(--primary-color-text);
   background-color: white;
   display: inline-block;
   width: 150px;
@@ -9,7 +9,7 @@
   border-radius: 18px;
   padding: 10px;
   text-decoration: none;
-  border: 2px solid rgb(255, 165, 180);
+  border: 2px solid var(--primary-color-text);
   transition: .2s;
   /* box-shadow: 0px 0px 6px rgb(255, 165, 180); */
   font-family: 'Comic Neue';
@@ -18,15 +18,15 @@
 
 .large-link:hover {
   color: white;
-  background-color: rgb(255, 165, 180);
+  background-color: var(--primary-color-text);
   border-radius: 12px;
   transition: .2s;
-  box-shadow: 0px 0px 24px rgb(255, 165, 180);
+  box-shadow: 0px 0px 24px var(--primary-color-text);
 }
 
 .large-link:active,
 .large-link:focus {
-  color: #d89fa9;
+  color: var(--primary-color-active);
   background-color: #f3f3f3;
   border-radius: 6px;
   transition: .2s;
@@ -39,13 +39,13 @@ h1 {
 
 a {
   font-weight: 500;
-  color: rgb(228, 98, 119);
+  color: var(--primary-color-text);
   text-decoration: underline;
   transition: .2s;
 }
 
 a:hover {
-  color: rgb(153, 82, 94);
+  color: var(--primary-color-active);
   transition: .2s;
 }
 
@@ -72,7 +72,6 @@ a:hover {
   text-decoration: none;
   border: 2px solid rgb(58, 76, 88);
   transition: .2s;
-  box-shadow: 0px 0px 6px rgb(58, 76, 88);
   font-family: 'Comic Neue';
   text-align: center;
 }
@@ -98,4 +97,9 @@ a:hover {
   display: none !important;
   visibility: hidden;
   height: 0;
+}
+
+.fl-img {
+  width: 98%;
+  border-radius: 10px;
 }
