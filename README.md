@@ -1,10 +1,12 @@
 ## 👋 Hi, Imken here!
 
-zh-CN (Native) / en-US
+zh-CN (Native) / en-random
 
-现役高一学生，没有目标，不思进取，目前全面开摆中。
+现役准高二学生，有强烈目标（经济独立），不知道是不是不思进取，目前可能在全面开摆中，剩下的不知道
 
-[Website (zh-CN/en-US)](https://imken.moe/) | [Blog (zh-CN)](https://blog.imken.moe/)
+[我很可爱，请给我钱](https://sponsor.imken.moe/)
+
+[Website (zh-CN/en-?)](https://imken.moe/) | [Blog (zh-CN)](https://blog.imken.moe/)
 
 ![GitHub Readme Status](https://github-readme-stats.vercel.app/api?show_icons=true&username=immccn123&theme=light)
 
