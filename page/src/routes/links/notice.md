@@ -1,10 +1,4 @@
-听好了，如果想要添加你的链接，请修改 <https://github.com/immccn123/data-imken-moe/blob/main/src/linksData.json> 并发起 PR。  
-尘埃，已经落定。  
-至此，一锤定音。
-
-\#友情链接\#
-
-⬆️ 玩源神玩的
+如果想要添加你的链接，请修改 <https://github.com/immccn123/data-imken-moe/blob/main/src/links.data.toml> 并发起 PR；我查成分后会决定是否同意这个请求（不过既然都会发 PR 了那一般都能过的啦w）
 
 你的链接会被展示在这个页面和我的博客页脚处！
 
