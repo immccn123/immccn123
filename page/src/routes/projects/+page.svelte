@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { Title } from "@svelteuidev/core";
     import Project from "./Project.svelte";
 
     const active: App.Project[] = [
@@ -44,20 +43,29 @@
     const archived: App.Project[] = [
         {
             name: "vjmirror",
-            repo: "immccn123/vjmirror.link",
+            repo: "immccn123/vjmirror-link",
             desc: "VJudge 镜像/反代",
             stack: ["c#", "dotnet"],
         },
     ];
 </script>
 
-<Title order={1}>项目 · Projects</Title>
+<h2 class="text-xl text-center">Active</h2>
 
-{#each active as project}
-    <Project {project} />
-{/each}
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {#each active as project}
+    <div class="flex">
+        <Project {project} />
+        </div>
+    {/each}
+</div>
 
-<Title order={2}>已归档的 · Archived</Title>
-{#each archived as project}
-    <Project {project} />
-{/each}
+<h2 class="text-xl text-center">Archived</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {#each archived as project}
+    <div class="flex">
+        <Project {project} />
+        </div>
+    {/each}
+</div>

@@ -1,55 +1,31 @@
-<script lang="ts">
-    import {
-        Card,
-        Image,
-        Group,
-        Text,
-        TypographyProvider,
-        Title,
-        Anchor,
-    } from "@svelteuidev/core";
-
-    import MarkdownIt from "markdown-it";
-    import notice from "./notice.md?raw";
-</script>
-
-<Title order={1}>友情链接 · Links</Title>
 {#await import("https://data.imken.moe/links.js")}
     <p>Loading…</p>
 {:then links}
-    {#each links.default as { url, name, description, avatar }}
-        <Card
-            withBorder
-            style="display: inline-block; width: 160px; margin: 10px"
-        >
-            <Card.Section padding="lg">
-                <Image
-                    src={avatar}
-                    height={160}
-                    fit="contain"
-                    alt={name}
-                    usePlaceholder
-                />
-            </Card.Section>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+        {#each links.default as { url, name, description, avatar }}
+            <a
+                class="
+                    card bg-base-100 shadow-xl flex flex-col justify-between h-full
+                    hover:shadow-2xl hover:-translate-y-1 hover:bg-base-200
+                    ease-in-out duration-300
+                "
+                href={url}
+            >
+                <figure>
+                    <img class="w-full" src={avatar} alt={name} />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">{name}</h2>
+                    <p>{description}</p>
+                </div>
+            </a>
+        {/each}
+    </div>
 
-            <div style="height: 10px;" />
-
-            <Group position="apart">
-                <Text weight={500}>
-                    <Anchor href={url}>{name}</Anchor>
-                </Text>
-            </Group>
-
-            <div style="height: 10px;" />
-
-            <Text size="sm">{description}</Text>
-        </Card>
-    {/each}
+    <a
+        class="btn btn-secondary btn-sm w-full"
+        href="https://shared.imken.moe/links/exchange"
+    >
+        友情链接交换 / 信息更新
+    </a>
 {/await}
-
-<TypographyProvider>
-    <h3>关于添加友情链接的注意事项：</h3>
-    <p>
-        {@html new MarkdownIt().render(notice)}
-    </p>
-</TypographyProvider>

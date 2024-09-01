@@ -1,13 +1,6 @@
 <script lang="ts">
-    import {
-        SvelteUIProvider,
-        Stack,
-        Center,
-        Anchor,
-        Breadcrumbs,
-        AppShell,
-        Container,
-    } from "@svelteuidev/core";
+    import "../app.css";
+    import { fade, fly } from "svelte/transition";
 
     export let data;
 
@@ -17,29 +10,50 @@
     };
 </script>
 
-<SvelteUIProvider>
-    <AppShell>
-        <Container slot="header">
-            <Breadcrumbs>
-                <Breadcrumbs.Item
-                    href={data.routes.length === 0 ? undefined : "/"}
-                >
-                    Home
-                </Breadcrumbs.Item>
-                {#each data.routes as route}
-                    {#if routeMap[route] !== undefined}
-                        <Breadcrumbs.Item>{routeMap[route]}</Breadcrumbs.Item>
+<div class="min-h-screen h-full flex flex-col">
+    {#if data.routes.length}
+        <div
+            in:fly={{ y: -100, duration: 300 }}
+            out:fly={{ y: -100, duration: 300 }}
+            class="navbar bg-base-100 mx-auto px-4"
+        >
+            <a class="btn btn-ghost btn-sm text-xl mr-0" href="/">Imken</a>
+            <div class="breadcrumbs text-sm">
+                <ul>
+                    <li></li>
+                    {#if routeMap[data.routes[0]] !== undefined}
+                        <li>
+                            <span class="ml-2">{routeMap[data.routes[0]]}</span>
+                        </li>
                     {/if}
-                {/each}
-            </Breadcrumbs>
-        </Container>
-        <Stack slot="default">
-            <slot />
-            <Center>
-                <Anchor href="https://icp.gov.moe/?keyword=20222616">
-                    萌ICP备20222616号
-                </Anchor>
-            </Center>
-        </Stack>
-    </AppShell>
-</SvelteUIProvider>
+                </ul>
+            </div>
+        </div>
+    {/if}
+
+    <main class="flex-grow mx-auto container">
+        {#key data.url}
+            <div
+                in:fade={{ duration: 300, delay: 300 }}
+                out:fade={{ duration: 300 }}
+            >
+                <slot />
+            </div>
+        {/key}
+    </main>
+
+    <footer
+        class="
+            footer bg-base-200 text-base-content p-4 mt-6
+            ease-in-out duration-300
+        "
+    >
+        <aside></aside>
+        <a
+            href="https://icp.gov.moe/?keyword=20222616"
+            class="link link-primary"
+        >
+            萌ICP备20222616号
+        </a>
+    </footer>
+</div>

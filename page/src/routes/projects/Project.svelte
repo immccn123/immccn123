@@ -1,32 +1,31 @@
 <script>
     import { languageMap } from "$lib";
-    import { Anchor, Card, Text, Badge } from "@svelteuidev/core";
 
     /** @type {App.Project} */
     export let project;
 </script>
 
-<Card style="display: inline-block; margin: 10px; width: 300px; height: 160px">
-    <Text weight={500}>{project.name}</Text>
+<div class="card bg-base-100 w-96 shadow-xl w-full">
+    <div class="card-body flex flex-col">
+        <span class="text-lg">{project.name}</span>
 
-    <div style="height: 10px;"></div>
-    <Text>{project.desc}</Text>
+        <span class="text-sm py-1">{project.desc}</span>
 
-    <div style="height: 10px;"></div>
+        <div class="flex gap-1 flex-wrap w-full">
+            {#each project.stack as tag}
+                <span class="badge inline-block w-fit">{languageMap[tag]}</span>
+            {/each}
+        </div>
 
-    {#each project.stack as tag}
-        <Badge color="gray" variant="outline" size="xs">
-            {languageMap[tag]}
-        </Badge>
-        {" "}
-    {/each}
+        <div class="flex-grow"></div>
 
-    <div style="height: 10px;"></div>
-
-    {#if project.repo}
-        <Anchor href={`https://github.com/${project.repo}`}>Repo</Anchor>
-    {/if}
-    {#if project.url}
-        <Anchor href={project.url}>Website</Anchor>
-    {/if}
-</Card>
+        <div class="join max-md:join-vertical text-center">
+            {#if project.repo}
+                <a class="btn join-item" href={`https://github.com/${project.repo}`}>Repo</a>
+            {/if}
+            {#if project.url}
+                <a class="btn join-item" href={project.url}>Website</a>
+            {/if}
+        </div>
+    </div>
+</div>
