@@ -1,5 +1,5 @@
 <div class="hero w-full">
-	<div class="hero-content flex-col lg:flex-row">
+	<div class="hero-content flex-col lg:flex-row max-lg:text-center">
 		<img
 			src="https://github.com/immccn123.png"
 			alt="Imken's Avatar"
