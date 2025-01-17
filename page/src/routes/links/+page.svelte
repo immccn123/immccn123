@@ -4,9 +4,11 @@
 	<div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
 		{#each links.default as { url, name, description, avatar }}
 			<a
-				class="card bg-base-100 shadow-xl flex flex-col justify-between h-full
-					hover:shadow-2xl hover:-translate-y-1 hover:bg-base-200
-					ease-in-out duration-300"
+				class="
+                    card bg-base-100 shadow-xl flex flex-col justify-between h-full
+                    hover:shadow-2xl hover:-translate-y-1 hover:bg-base-200
+                    ease-in-out duration-300
+                "
 				href={url}
 			>
 				<figure>
