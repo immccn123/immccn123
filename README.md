@@ -1,8 +1,8 @@
 ## 👋 Hi, Imken here!
 
-zh-CN (Native) / en-random
+zh-CN (Native) / en-unknown
 
-现役高二学生，有强烈目标（经济独立），不知道是不是不思进取，目前可能在全面开摆中，剩下的不知道
+现役高二学生，目前可能在全面开摆中。
 
 [我很可爱，请给我钱](https://sponsor.imken.moe/)
 
