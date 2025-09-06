@@ -8,8 +8,8 @@
 			width="400"
 		/>
 		<div>
-			<h1 class="text-5xl font-bold">Imken</h1>
-			<h2 class="text-2xl font-bold">@immccn123</h2>
+			<h1 class="text-5xl font-bold text-primary">Imken</h1>
+			<h2 class="text-2xl font-bold text-primary">@immccn123</h2>
 			<p class="py-6" style="width: 350px;">Developer / Forever 3 y.o.</p>
 			<div class="join join-vertical w-full">
 				<a class="btn join-item" href="/projects">项目 / Projects</a>

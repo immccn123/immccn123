@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { ModeWatcher, systemPrefersMode } from "mode-watcher";
 	import "../app.css";
 	import { fade, fly } from "svelte/transition";
 
@@ -9,23 +8,14 @@
 		projects: "项目 · Projects",
 		links: "友情链接 · Links",
 	};
-
-	systemPrefersMode.subscribe((value) => {
-		if (value === "light")
-			document.body.setAttribute("data-theme", "cupcake");
-		else if (value === "dark")
-			document.body.setAttribute("data-theme", "dim");
-	});
 </script>
-
-<ModeWatcher />
 
 <div class="min-h-screen h-full flex flex-col">
 	{#if data.routes.length}
 		<div
-			in:fly={{ y: -100, duration: 300 }}
-			out:fly={{ y: -100, duration: 300 }}
-			class="navbar bg-base-100 mx-auto px-4"
+			in:fade={{ duration: 300, delay: 300 }}
+			out:fade={{ duration: 300 }}
+			class="navbar bg-base-100 mx-auto px-4 fixed"
 		>
 			<a class="btn btn-ghost btn-sm text-xl mr-0" href="/">Imken</a>
 			<div class="breadcrumbs text-sm">
@@ -41,7 +31,7 @@
 		</div>
 	{/if}
 
-	<main class="flex-grow mx-auto container">
+	<main class="mx-auto container mt-[5rem]">
 		{#key data.url}
 			<div
 				in:fade={{ duration: 300, delay: 300 }}
@@ -52,9 +42,11 @@
 		{/key}
 	</main>
 
+	<div class="grow"></div>
+
 	<footer
 		class="
-            footer bg-base-200 text-base-content p-4 mt-6
+            footer bg-base-200 text-base-content p-4 mt-6 footer-horizontal
             ease-in-out duration-300
         "
 	>

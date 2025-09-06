@@ -5,7 +5,7 @@
     export let project;
 </script>
 
-<div class="card bg-base-100 w-96 shadow-xl w-full">
+<div class="card card-border bg-base-100 w-full">
     <div class="card-body flex flex-col">
         <span class="text-lg">{project.name}</span>
 
@@ -17,7 +17,7 @@
             {/each}
         </div>
 
-        <div class="flex-grow"></div>
+        <div class="grow"></div>
 
         <div class="join max-md:join-vertical text-center">
             {#if project.repo}

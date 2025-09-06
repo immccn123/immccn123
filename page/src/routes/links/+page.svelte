@@ -1,12 +1,13 @@
 {#await import("https://data.imken.moe/links.js")}
 	<p>Loading…</p>
 {:then links}
-	<div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+	<div
+		class="grid max-sm:max-w-[300px] mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 max-w-[720px]"
+	>
 		{#each links.default as { url, name, description, avatar }}
 			<a
 				class="
-                    card bg-base-100 shadow-xl flex flex-col justify-between h-full
-                    hover:shadow-2xl hover:-translate-y-1 hover:bg-base-200
+                    card card-border bg-base-100 flex flex-col justify-between h-full hover:bg-base-200
                     ease-in-out duration-300
                 "
 				href={url}

@@ -1,8 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+SC:wght@100..900&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+SC:wght@100..900&display=swap")
+layer(base);
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/typography';
+
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+	name: "iknlight";
+	default: true; /* set as default */
+	prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+	color-scheme: light; /* color of browser-provided UI */
+
+	--color-base-100: #fff5f5;
+	--color-base-200: #fcecec;
+	--color-base-300: #f7dede;
+	--color-base-content: #1f2937;
+
+	--color-primary: #985e68;
+	--color-primary-content: #ffffff;
+
+	--color-secondary: #c48c94;
+	--color-secondary-content: #1f2937;
+
+	--color-accent: #e4bfc4;
+	--color-accent-content: #1f2937;
+
+	--color-neutral: #3d3d3d;
+	--color-neutral-content: #f3f4f6;
+
+	--color-info: #2563eb;
+	--color-info-content: #f8fafc;
+
+	--color-success: #2b8f4c;
+	--color-success-content: #ffffff;
+
+	--color-warning: #b45309;
+	--color-warning-content: #fff7ed;
+
+	--color-error: #b91c1c;
+	--color-error-content: #fef2f2;
+
+	/* border radius */
+	--radius-selector: 1rem;
+	--radius-field: 1rem;
+	--radius-box: 0.5rem;
+
+	/* base sizes */
+	--size-selector: 0.25rem;
+	--size-field: 0.25rem;
+
+	/* border size */
+	--border: 1px;
+
+	/* effects */
+	--depth: 0;
+	--noise: 0;
+}
+
+@plugin "daisyui/theme" {
+	name: "ikndark";
+	default: false;
+	prefersdark: true;
+	color-scheme: dark;
+
+	--color-base-100: #151313; /* 深灰背景 */
+	--color-base-200: #201d1d;
+	--color-base-300: #3a3a3a;
+	--color-base-content: #eaeaea; /* 浅灰白文字 */
+
+	--color-primary: #d68e9c; /* 提亮后的主色 */
+	--color-primary-content: #ffffff;
+
+	--color-secondary: #d3a0a8;
+	--color-secondary-content: #1f1f1f;
+
+	--color-accent: #eabfc4;
+	--color-accent-content: #1f1f1f;
+
+	--color-neutral: #4a4a4a;
+	--color-neutral-content: #f3f4f6;
+
+	--color-info: #60a5fa;
+	--color-info-content: #1e3a8a;
+
+	--color-success: #46a766; /* 提亮后的绿色 */
+	--color-success-content: #ffffff;
+
+	--color-warning: #f6ad55;
+	--color-warning-content: #1f1f1f;
+
+	--color-error: #f87171;
+	--color-error-content: #1f1f1f;
+
+	/* border radius */
+	--radius-selector: 1rem;
+	--radius-field: 1rem;
+	--radius-box: 0.5rem;
+
+	/* base sizes */
+	--size-selector: 0.25rem;
+	--size-field: 0.25rem;
+
+	/* border size */
+	--border: 1px;
+
+	/* effects */
+	--depth: 0;
+	--noise: 0;
+}
+
+/* , dim --prefersdark, cupcake; */
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentcolor);
+	}
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentcolor);
+	}
+}
 
 body {
-    font-family: 'Lato', 'Noto Sans SC';
+	font-family: "Lato", "Noto Sans SC";
 }
