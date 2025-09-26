@@ -15,7 +15,7 @@
 		<div
 			in:fade={{ duration: 300, delay: 300 }}
 			out:fade={{ duration: 300 }}
-			class="navbar bg-base-100 mx-auto px-4 fixed"
+			class="navbar bg-base-100 mx-auto px-4 fixed z-10"
 		>
 			<a class="btn btn-ghost btn-sm text-xl mr-0" href="/">Imken</a>
 			<div class="breadcrumbs text-sm">
@@ -54,6 +54,7 @@
 		<a
 			href="https://icp.gov.moe/?keyword=20222616"
 			class="link link-primary"
+			target="_blank"
 		>
 			萌ICP备20222616号
 		</a>
