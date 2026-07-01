@@ -2,7 +2,7 @@
 
 zh-CN (Native) / en-unknown / x-cat
 
-现役高三学生，虽然在备战高考，但目前可能在全面开摆中。
+退役高三学生，目前全面开摆中。
 
 [我很可爱，请给我钱](https://sponsor.imken.moe/)
 
