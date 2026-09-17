@@ -4,7 +4,7 @@ zh-CN (Native) / en-unknown / x-cat
 
 退役高三学生，目前全面开摆中。
 
-[我很可爱，请给我钱](https://sponsor.imken.moe/)
+[请给我钱](https://sponsor.imken.moe/)
 
 [Website (zh-CN/en-?)](https://imken.moe/) | [Blog (zh-CN)](https://blog.imken.moe/)
 
